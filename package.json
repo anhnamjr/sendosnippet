@@ -1,0 +1,22 @@
+{
+  "name": "sendosnippet",
+  "displayName": "sendoSnippet",
+  "description": "This include all snippet when you work with sendo package",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "repository": "https://github.com/anhnamjr/sendosnippet.git",
+  "publisher": "anhnamjr1999",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
